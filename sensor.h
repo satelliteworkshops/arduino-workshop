@@ -2,7 +2,8 @@
 #define SENSOR_H
 
 namespace Sensor {
-  void setup();        
+  void setup(); 
+  int readTemp();       
 }
 
 #endif

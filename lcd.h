@@ -3,7 +3,8 @@
 
 namespace LCD {
   void setup();
-  void displayTemp(int);    
+  void displayTemp(int);  
+  void clearScreen();  
 }
 
 #endif

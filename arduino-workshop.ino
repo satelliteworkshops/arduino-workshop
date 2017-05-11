@@ -3,9 +3,12 @@
 
 void setup() {
   LCD::setup();
-  LCD::displayTemp(10);
   Sensor::setup();
 }
 
 void loop() {
+  int temp = Sensor::readTemp();
+  LCD::displayTemp(temp);
+  delay(5000);
+  LCD::clearScreen();
 }

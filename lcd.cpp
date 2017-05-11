@@ -18,6 +18,11 @@ namespace LCD {
     TFTscreen.stroke(255, 255, 255);
   }
 
+  void clearScreen() {
+    // clear the screen to show refreshed data
+    TFTscreen.background(0, 0, 0);
+  }
+
   void displayTemp(int tempInt) {
     char tempChar[6];
     snprintf(tempChar, sizeof tempChar, "%d", tempInt);
