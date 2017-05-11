@@ -1,3 +1,4 @@
+#include "lcd.h"
 #include <TFT.h>  // Arduino LCD library
 #include <SPI.h>
 
