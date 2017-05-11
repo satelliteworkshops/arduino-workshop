@@ -4,6 +4,7 @@
 void setup() {
   LCD::setup();
   LCD::helloworld();
+  Sensor::setup();
 }
 
 void loop() {

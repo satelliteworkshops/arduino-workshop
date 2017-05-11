@@ -2,6 +2,7 @@
 #define SENSOR_H
 
 namespace Sensor {
+  void setup();        
 }
 
 #endif
