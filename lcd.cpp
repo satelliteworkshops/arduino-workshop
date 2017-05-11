@@ -2,12 +2,12 @@
 #include <TFT.h>  // Arduino LCD library
 
 // pin definition for LCD
-#define cs   10
-#define dc   9
-#define rst  8
+#define LCD_CS   10
+#define LCD_DC   9
+#define LCD_RST  8
 
 namespace LCD {
-  TFT TFTscreen = TFT(cs, dc, rst);
+  TFT TFTscreen = TFT(LCD_CS, LCD_DC, LCD_RST);
 
   void setup() {
     // initialize the display
