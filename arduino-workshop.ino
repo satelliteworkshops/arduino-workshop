@@ -3,7 +3,7 @@
 
 void setup() {
   LCD::setup();
-  LCD::helloworld();
+  LCD::displayTemp(10);
   Sensor::setup();
 }
 

@@ -18,8 +18,10 @@ namespace LCD {
     TFTscreen.stroke(255, 255, 255);
   }
 
-  void helloworld() {
-    // print test text
-    TFTscreen.text("I like turtles", 0, 20);
+  void displayTemp(int tempInt) {
+    char tempChar[6];
+    snprintf(tempChar, sizeof tempChar, "%d", tempInt);
+    // print temp text
+    TFTscreen.text(tempChar, 0, 20);
   }
 }
