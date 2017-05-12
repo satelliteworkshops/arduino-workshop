@@ -1,0 +1,27 @@
+sudo: required
+
+dist: trusty
+
+language: python
+
+python:
+  - '2.7'
+
+node_js:
+  - '6'
+
+cache:
+  directories:
+    - "~/.platformio"
+
+install:
+  - npm install
+  - pip install -U platformio
+
+# test
+script:
+  - script/cibuild
+
+# deploy
+after_success:
+  - 'script/deploy'
