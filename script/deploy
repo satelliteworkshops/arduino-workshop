@@ -6,8 +6,8 @@ const got = require('gh-got');
 const Ora = require('ora');
 
 const ghStatus = (status, id) => {
-  const owner = 'stoe';
-  const repo = 'arduino-sample';
+  const owner = 'satelliteworkshops';
+  const repo = 'arduino-workshop';
 
   let cmd = `repos/${owner}/${repo}/deployments`;
   let body = {
