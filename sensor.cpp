@@ -18,4 +18,8 @@ namespace Sensor {
   int readTemp() {
     return dht.readTemperature(DHT_FAHRENHEIT);
   }
+
+  int readHum() {
+    return dht.readHumidity();
+  }
 }
