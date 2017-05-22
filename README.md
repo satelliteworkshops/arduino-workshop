@@ -44,3 +44,7 @@ Great websites to find cool projects to build include:
 - [hackster.io](https://www.hackster.io/)
 - [diyhacking.com](https://diyhacking.com/diy-projects/arduino-projects/)
 - [Arduino Playground](https://playground.arduino.cc/Projects/Ideas)
+
+### Resources
+- [Glyphduino library](http://rastating.github.io/Glyphduino/) - library with pre-made glyphs
+- [Customer character generator](http://fusion94.org/lcdchargen/) - make your own custom glyphs in a web UI and get the code
