@@ -38,3 +38,9 @@ Before arriving to the workshop, please make sure you have the following items i
 ### Code samples
 - `HelloSatellite.ino` is located in the `HelloSatellite` folder
 - `WeatherThing.ino` and it's auxiliary files is located in the root folder
+
+### Cool projects resources
+Great websites to find cool projects to build include:
+- [hackster.io](https://www.hackster.io/)
+- [diyhacking.com](https://diyhacking.com/diy-projects/arduino-projects/)
+- [Arduino Playground](https://playground.arduino.cc/Projects/Ideas)
