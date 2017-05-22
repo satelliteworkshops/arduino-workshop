@@ -1,5 +1,6 @@
 #include "sensor.h"
 #include <DHT.h>  // DHT sensor library
+#include <Arduino.h>
 
 // data pin definition for sensor
 #define DHT_DATA       7
