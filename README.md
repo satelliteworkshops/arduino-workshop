@@ -30,3 +30,11 @@ Before arriving to the workshop, please make sure you have the following items i
 - 1 [USB to micro USB cable](https://vetco.net/products/1-micro-usb-cable-a-usb-to-micro-usb-b) 
 - 2 [male-male jumper jumper wire packs](https://vetco.net/products/7-male-male-rainbow-breadboard-jumper-wire-for-arduino-10-pack)
   - Can also be purchased [here](http://www.mouser.co.uk/ProductDetail/MikroElektronika/MIKROE-513/?qs=sGAEpiMZZMuCISx1W3tuzqgZjGmk8QdS)
+
+### Libraries used for WeatherThing
+- [Liquid Crystal Library](https://www.arduino.cc/en/Reference/LiquidCrystal)
+- [DHT](https://github.com/adafruit/DHT-sensor-library)
+
+### Code samples
+- `HelloSatellite.ino` is located in the `HelloSatellite` folder
+- `WeatherThing.ino` and it's auxiliary files is located in the root folder
