@@ -1,5 +1,7 @@
-#include "lcd.h"
-#include <TFT.h>  // Arduino LCD library
+#include "display.h"
+#include "sensor.h"
+#include <LiquidCrystal.h>  // Arduino LCD library
+#include <Arduino.h>  // enables use of byte pics
 
 // pin definition for LCD
 #define LCD_CS   10
