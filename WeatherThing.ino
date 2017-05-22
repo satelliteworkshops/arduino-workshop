@@ -4,13 +4,14 @@
 #include <Arduino.h>  // enables use of byte pics
 
 void setup() {
-  LCD::setup();
+  Display::setup();
   Sensor::setup();
 }
 
 void loop() {
   int temp = Sensor::readTemp();
-  LCD::displayTemp(temp);
-  delay(5000);
-  LCD::clearScreen();
+  int hum = Sensor::readHum();
+  Display::displayTemp(temp);
+  Display::displayHum(hum);
+  delay(3000);  
 }
