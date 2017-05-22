@@ -3,10 +3,12 @@
 #include <LiquidCrystal.h>  // Arduino LCD library
 #include <Arduino.h>  // enables use of byte pics
 
-// pin definition for LCD
-#define LCD_CS   10
-#define LCD_DC   9
-#define LCD_RST  8
+#define DISPLAY_RS 14
+#define DISPLAY_E  15
+#define DISPLAY_D4 5
+#define DISPLAY_D5 4
+#define DISPLAY_D6 3
+#define DISPLAY_D7 2
 
 namespace LCD {
   TFT TFTscreen = TFT(LCD_CS, LCD_DC, LCD_RST);
