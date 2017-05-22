@@ -5,7 +5,7 @@
 // data pin definition for sensor
 #define DHT_DATA       7
 #define DHT_TYPE       DHT22
-#define DHT_FAHRENHEIT true
+#define DHT_FAHRENHEIT false
 
 namespace Sensor {
   DHT dht = DHT(DHT_DATA, DHT_TYPE);
