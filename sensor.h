@@ -3,7 +3,8 @@
 
 namespace Sensor {
   void setup(); 
-  int readTemp();       
+  int readTemp();   
+  int readHum();  
 }
 
 #endif
