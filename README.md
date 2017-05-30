@@ -48,3 +48,6 @@ Great websites to find cool projects to build include:
 ### Resources
 - [Glyphduino library](http://rastating.github.io/Glyphduino/) - library with pre-made glyphs
 - [Customer character generator](http://fusion94.org/lcdchargen/) - make your own custom glyphs in a web UI and get the code
+
+### Slide deck
+- [Slide deck](https://speakerdeck.com/allthedoll/github-and-the-internet-of-things-automate-iot-hardware?slide=3) with instructions for assembly
